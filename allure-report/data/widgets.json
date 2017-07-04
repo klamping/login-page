@@ -1,0 +1,42 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 13
+    },
+    "time" : {
+      "minDuration" : 1029,
+      "maxDuration" : 8408,
+      "sumDuration" : 65398,
+      "start" : 1499189954293,
+      "stop" : 1499189991069,
+      "duration" : 36776
+    }
+  },
+  "environment" : [ {
+    "values" : [ "{\"maxInstances\":5,\"browserName\":\"chrome\"}" ],
+    "name" : "capabilities"
+  }, {
+    "values" : [ "[\"/Users/klamping/login-page/test/register.spec.js\"]" ],
+    "name" : "spec files"
+  } ],
+  "history-trend" : [ {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 13,
+    "unknown" : 0,
+    "total" : 13
+  } ],
+  "behaviors" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "launches" : [ ]
+}

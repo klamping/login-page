@@ -1,0 +1,119 @@
+{
+  "uid" : "7d1243496bdbed90",
+  "name" : "should let your register with proper credentials",
+  "fullName" : "Registration Page.should let your register with proper credentials",
+  "historyId" : "e26bc259549891a8d4e00fadf2000d0",
+  "time" : {
+    "start" : 1499189201249,
+    "stop" : 1499189202264,
+    "duration" : 1015
+  },
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "",
+    "trace" : "Error: \n                    at Context.<anonymous> (test/register.spec.js:22:14)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:35:28)\n                    at setValue() - at Register.register (test/register.page.js:9:16)",
+    "flaky" : true
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "",
+      "trace" : "Error: \n                    at Context.<anonymous> (test/register.spec.js:22:14)\n                    at Promise.F (node_modules/core-js/library/modules/_export.js:35:28)\n                    at setValue() - at Register.register (test/register.page.js:9:16)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e1bb5f51-c7bb-425c-84a6-afd740687e50/url",
+      "time" : {
+        "start" : 1499189201254,
+        "stop" : 1499189201603,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4c7b4c4b50ed0a7",
+        "name" : "Request",
+        "source" : "d4c7b4c4b50ed0a7.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "deaf781aa354b7b8",
+        "name" : "Response",
+        "source" : "deaf781aa354b7b8.json",
+        "type" : "application/json",
+        "size" : 195
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "POST /wd/hub/session/e1bb5f51-c7bb-425c-84a6-afd740687e50/element",
+      "time" : {
+        "start" : 1499189201635,
+        "stop" : 1499189201819,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8c8e904ce9373b8b",
+        "name" : "Request",
+        "source" : "8c8e904ce9373b8b.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "46aea3c62b4921b3",
+        "name" : "Response",
+        "source" : "46aea3c62b4921b3.json",
+        "type" : "application/json",
+        "size" : 221
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "GET /wd/hub/session/e1bb5f51-c7bb-425c-84a6-afd740687e50/screenshot",
+      "time" : {
+        "start" : 1499189201840,
+        "stop" : 1499189202254,
+        "duration" : 414
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb47c00a4cdd1748",
+        "name" : "Screenshot",
+        "source" : "eb47c00a4cdd1748.png",
+        "type" : "image/png",
+        "size" : 72549
+      } ],
+      "parameters" : [ ]
+    } ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 5
+  },
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should let your register with proper credentials"
+  }, {
+    "name" : "package",
+    "value" : "Registration Page"
+  } ],
+  "parameters" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

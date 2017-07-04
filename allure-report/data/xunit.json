@@ -1,0 +1,204 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 13,
+    "unknown" : 0,
+    "total" : 13
+  },
+  "time" : {
+    "minDuration" : 1029,
+    "maxDuration" : 8408,
+    "sumDuration" : 65398,
+    "start" : 1499189954293,
+    "stop" : 1499189991069,
+    "duration" : 36776
+  },
+  "children" : [ {
+    "uid" : "28d20e118b1b9942",
+    "name" : "Registration Page",
+    "time" : {
+      "minDuration" : 1029,
+      "maxDuration" : 7945,
+      "sumDuration" : 36763,
+      "start" : 1499189954294,
+      "stop" : 1499189991069,
+      "duration" : 36775
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "3a6744889297f021",
+      "name" : "should look nice",
+      "time" : {
+        "start" : 1499189954294,
+        "stop" : 1499189962239,
+        "duration" : 7945
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e44594ad0bd5397e",
+      "name" : "should error on too short of password",
+      "time" : {
+        "start" : 1499189984802,
+        "stop" : 1499189990038,
+        "duration" : 5236
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f428303b3d5ef89e",
+      "name" : "should error on mismatched password",
+      "time" : {
+        "start" : 1499189978441,
+        "stop" : 1499189984800,
+        "duration" : 6359
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "30c2a3dee03b2e78",
+      "name" : "should let your register with proper credentials",
+      "time" : {
+        "start" : 1499189962241,
+        "stop" : 1499189969601,
+        "duration" : 7360
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "b04fb4013e475ec",
+      "name" : "should error on missing password",
+      "time" : {
+        "start" : 1499189971484,
+        "stop" : 1499189978440,
+        "duration" : 6956
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "97cfd7d5f81a0432",
+      "name" : "should error on a invalid email",
+      "time" : {
+        "start" : 1499189969602,
+        "stop" : 1499189971480,
+        "duration" : 1878
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "a1c1016b2db8d36d",
+      "name" : "should let you go back to homepage",
+      "time" : {
+        "start" : 1499189990040,
+        "stop" : 1499189991069,
+        "duration" : 1029
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  }, {
+    "uid" : "13a06b9fa6101c6a",
+    "name" : "Login Page",
+    "time" : {
+      "minDuration" : 1453,
+      "maxDuration" : 8408,
+      "sumDuration" : 28635,
+      "start" : 1499189954293,
+      "stop" : 1499189982934,
+      "duration" : 28641
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "a87a3e6e83e3e169",
+      "name" : "should link to the registration page",
+      "time" : {
+        "start" : 1499189981481,
+        "stop" : 1499189982934,
+        "duration" : 1453
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "fc2f3d50a01a4d59",
+      "name" : "should error on missing password",
+      "time" : {
+        "start" : 1499189974511,
+        "stop" : 1499189981480,
+        "duration" : 6969
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d80df969040e42c4",
+      "name" : "should error on a invalid email",
+      "time" : {
+        "start" : 1499189972701,
+        "stop" : 1499189974508,
+        "duration" : 1807
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "1275eee7093fff71",
+      "name" : "should error on a missing email",
+      "time" : {
+        "start" : 1499189965216,
+        "stop" : 1499189972700,
+        "duration" : 7484
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "10d7a9dc459d1a24",
+      "name" : "should let you login with valid credentials",
+      "time" : {
+        "start" : 1499189962702,
+        "stop" : 1499189965216,
+        "duration" : 2514
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "544bf1babd418971",
+      "name" : "should look nice",
+      "time" : {
+        "start" : 1499189954293,
+        "stop" : 1499189962701,
+        "duration" : 8408
+      },
+      "status" : "passed",
+      "flaky" : true,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

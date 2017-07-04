@@ -1,0 +1,73 @@
+{
+  "uid" : "dd8cb115bbacf0eb",
+  "name" : "should error on missing password",
+  "fullName" : "Login Page.should error on missing password",
+  "historyId" : "b13a230c3ce42b8c0186b50c60296d13",
+  "time" : {
+    "start" : 1499187971779,
+    "stop" : 1499187971958,
+    "duration" : 179
+  },
+  "status" : "broken",
+  "statusDetails" : {
+    "message" : "validEmail is not defined",
+    "trace" : "ReferenceError: validEmail is not defined\n                    at Context.<anonymous> (/Users/klamping/login-page/test/login.spec.js:58:17)\n                    at Promise.F (/Users/klamping/login-page/node_modules/core-js/library/modules/_export.js:35:28)",
+    "flaky" : true
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "testStage" : {
+    "status" : "broken",
+    "statusDetails" : {
+      "message" : "validEmail is not defined",
+      "trace" : "ReferenceError: validEmail is not defined\n                    at Context.<anonymous> (/Users/klamping/login-page/test/login.spec.js:58:17)\n                    at Promise.F (/Users/klamping/login-page/node_modules/core-js/library/modules/_export.js:35:28)",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/de04bcc0-8362-4cdf-891d-a270ea70defb/url",
+      "time" : {
+        "start" : 1499187971780,
+        "stop" : 1499187971954,
+        "duration" : 174
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14cbb122cdb837c9",
+        "name" : "Request",
+        "source" : "14cbb122cdb837c9.json",
+        "type" : "application/json",
+        "size" : 47
+      }, {
+        "uid" : "9c04968189886553",
+        "name" : "Response",
+        "source" : "9c04968189886553.json",
+        "type" : "application/json",
+        "size" : 196
+      } ],
+      "parameters" : [ ]
+    } ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 2
+  },
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should error on missing password"
+  }, {
+    "name" : "package",
+    "value" : "Login Page"
+  } ],
+  "parameters" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

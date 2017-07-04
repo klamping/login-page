@@ -1,0 +1,28 @@
+{
+    "state": "success",
+    "sessionId": "3a5f2642-8e10-49f1-bf74-097be80267ff",
+    "hCode": 389147136,
+    "value": {
+        "html": {
+            "scrollHeight": 500,
+            "clientWidth": 800,
+            "clientHeight": 500,
+            "offsetHeight": 500,
+            "scrollWidth": 800
+        },
+        "window": {
+            "innerWidth": 800,
+            "orientation": 0,
+            "screenWidth": 1280,
+            "innerHeight": 500,
+            "pixelRatio": 2,
+            "screenHeight": 720
+        },
+        "body": {
+            "scrollHeight": 500,
+            "offsetHeight": 500
+        }
+    },
+    "class": "org.openqa.selenium.remote.Response",
+    "status": 0
+}

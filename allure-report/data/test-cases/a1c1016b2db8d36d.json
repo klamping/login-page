@@ -1,0 +1,133 @@
+{
+  "uid" : "a1c1016b2db8d36d",
+  "name" : "should let you go back to homepage",
+  "fullName" : "Registration Page.should let you go back to homepage",
+  "historyId" : "d34f66e8efdd38a6ad51b223791074c2",
+  "time" : {
+    "start" : 1499189990040,
+    "stop" : 1499189991069,
+    "duration" : 1029
+  },
+  "status" : "passed",
+  "description" : "",
+  "descriptionHtml" : "",
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/3a5f2642-8e10-49f1-bf74-097be80267ff/url",
+      "time" : {
+        "start" : 1499189990041,
+        "stop" : 1499189990326,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66e94becac7e30c6",
+        "name" : "Request",
+        "source" : "66e94becac7e30c6.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "a43a840fd499ccff",
+        "name" : "Response",
+        "source" : "a43a840fd499ccff.json",
+        "type" : "application/json",
+        "size" : 196
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "POST /wd/hub/session/3a5f2642-8e10-49f1-bf74-097be80267ff/element",
+      "time" : {
+        "start" : 1499189990335,
+        "stop" : 1499189990436,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f34e8704c9a186fb",
+        "name" : "Request",
+        "source" : "f34e8704c9a186fb.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "a678a2691992d43f",
+        "name" : "Response",
+        "source" : "a678a2691992d43f.json",
+        "type" : "application/json",
+        "size" : 222
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "POST /wd/hub/session/3a5f2642-8e10-49f1-bf74-097be80267ff/element/20/click",
+      "time" : {
+        "start" : 1499189990442,
+        "stop" : 1499189990950,
+        "duration" : 508
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14385f134e18e8d0",
+        "name" : "Response",
+        "source" : "14385f134e18e8d0.json",
+        "type" : "application/json",
+        "size" : 195
+      } ],
+      "parameters" : [ ]
+    }, {
+      "name" : "GET /wd/hub/session/3a5f2642-8e10-49f1-bf74-097be80267ff/url",
+      "time" : {
+        "start" : 1499189990958,
+        "stop" : 1499189991060,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e91bea151ee1add3",
+        "name" : "Response",
+        "source" : "e91bea151ee1add3.json",
+        "type" : "application/json",
+        "size" : 233
+      } ],
+      "parameters" : [ ]
+    } ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 6
+  },
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Registration Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Registration Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should let you go back to homepage"
+  }, {
+    "name" : "package",
+    "value" : "Registration Page"
+  } ],
+  "parameters" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ]
+  }
+}

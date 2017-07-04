@@ -1,8 +1,0 @@
-{
-    "state": "success",
-    "sessionId": "de04bcc0-8362-4cdf-891d-a270ea70defb",
-    "hCode": 1233720092,
-    "value": "http://testyourlog.in/example/logged-in.html?email=valid%40user.com&password=asdasd",
-    "class": "org.openqa.selenium.remote.Response",
-    "status": 0
-}

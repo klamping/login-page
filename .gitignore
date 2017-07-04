@@ -1,4 +1,4 @@
 errorShots/
 allure-results/
-screenshot/latest/
-screenshot/diff/
+screenshot/latest
+screenshot/diff

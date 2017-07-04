@@ -18,7 +18,6 @@ exports.config = {
 
     user: process.env.TB_KEY,
     key: process.env.TB_SECRET,
-    tbTunnel: true,
 
     //
     // ==================
